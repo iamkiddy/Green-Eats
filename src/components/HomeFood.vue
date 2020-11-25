@@ -192,19 +192,19 @@ img:hover {
   }
   .second-text{
     font-size: 30px;
-    margin-left: -70px;
+    margin-left: -90px;
   }
   .sec-btn{
     width: 150px;
     height: 40px;
-    margin-left:-70px;
+    margin-left:-90px;
     font-size:16px
   }
   .texts{
     z-index: 1;
   }
   .brand-pic{
-    margin-left: -70px;
+    margin-left: -90px;
   }
 }
 </style>

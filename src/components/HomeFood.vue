@@ -171,14 +171,14 @@ img:hover {
     display: none;
   }
   .brand-name{
-    margin-left:-80px;
+    margin-left:-90px;
   }
   .shop-icons{
     margin-left: -250px;
   }
   .bag-number{
     position: absolute;
-    left:400px;
+    left:300px;
     top:10px;
   }
   .search{

@@ -167,7 +167,7 @@ img:hover {
     display: none;
   }
   .brand-name{
-    margin-left:-70px;
+    margin-left:-80px;
   }
   .shop-icons{
     margin-left: -250px;

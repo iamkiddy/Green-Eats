@@ -205,5 +205,8 @@ img:hover {
     margin-left:-70px;
     font-size:16px
   }
+  .texts{
+    z-index: 1;
+  }
 }
 </style>

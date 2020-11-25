@@ -172,7 +172,7 @@ img:hover {
   }
   .bag-number{
     position: absolute;
-    left:290px;
+    left:300px;
     top:10px;
   }
   .search{

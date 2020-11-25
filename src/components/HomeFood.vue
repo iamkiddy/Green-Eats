@@ -28,6 +28,7 @@
           <div class="shop-icons">
             <img src="../assets/search.svg" class="search" />
             <img src="../assets/shopping-bag.svg" class="bag" />
+            <img src="../assets/user.svg" class="user" width="25px"/>
           </div>
           <div class="bag-number">2</div>
         </header>
@@ -68,6 +69,10 @@ export default {
   margin-left: 100px;
   margin-right: 100px;
 }
+.user{
+  position: relative;
+  top:-3px;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -99,7 +104,7 @@ a:hover {
 .shop-icons {
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
   position: relative;
   right: -402px;
@@ -113,7 +118,7 @@ img:hover {
 }
 .bag-number {
   position: absolute;
-  right: 140px;
+  right: 190px;
   top: 55px;
   background: #64DB61;
   color: #ffffff;

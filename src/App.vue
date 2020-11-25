@@ -15,10 +15,13 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Roboto&display=swap");
+
 * {
   margin:0px;
   padding: 0px;
   box-sizing:border-box;
-  color:#000
+  color:#000;
+  font-family:"poppins",sans-serif;
 }
 </style>

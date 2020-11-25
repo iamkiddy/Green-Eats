@@ -1,20 +1,24 @@
 <template>
   <div class="home">
-    <h1>Home page</h1>
+    <TopBarNavbar />
+    <HomeFood />
   </div>
 </template>
 
 <script>
+import TopBarNavbar from './TopBarNavbar'
+import HomeFood from './HomeFood'
 export default {
   name: 'Home',
+  components:{
+    TopBarNavbar,
+    HomeFood
+  }
 
 }
 </script>
 
 
 <style scoped>
-.home{
-  background: #333;
-  color:#fff
-}
+
 </style>

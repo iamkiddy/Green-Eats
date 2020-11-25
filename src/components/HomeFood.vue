@@ -168,7 +168,7 @@ img:hover {
     display: none;
   }
   .shop-icons{
-    margin-left: -240px;
+    margin-left: -260px;
   }
   .bag-number{
     position: absolute;

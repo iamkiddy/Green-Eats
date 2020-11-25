@@ -69,10 +69,7 @@ export default {
   margin-left: 100px;
   margin-right: 100px;
 }
-.user{
-  position: relative;
-  top:-3px;
-}
+
 header {
   display: flex;
   flex-direction: row;
@@ -187,13 +184,14 @@ img:hover {
   .bag{
     width:20px;
   }
-  .love{
+  .user{
     width: 20px;
   }
   .img-main{
     width:250px;
     margin-top: -100px;
     margin-right: -180px;
+    display: none;
   }
   .second-text{
     font-size: 30px;

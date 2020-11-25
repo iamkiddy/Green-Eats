@@ -170,7 +170,7 @@ img:hover {
     margin-left:-70px;
   }
   .shop-icons{
-    margin-left: -160px;
+    margin-left: -200px;
   }
   .bag-number{
     position: absolute;

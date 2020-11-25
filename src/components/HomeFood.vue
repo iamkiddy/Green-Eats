@@ -174,11 +174,11 @@ img:hover {
     margin-left:-90px;
   }
   .shop-icons{
-    margin-left: -250px;
+    margin-left: -270px;
   }
   .bag-number{
     position: absolute;
-    left:300px;
+    left:280px;
     top:10px;
   }
   .search{

@@ -4,7 +4,7 @@
       <div class="container-1">
         <header>
           <h1 class="brand-name">
-            <router-link to="/"><img src="../assets/green-eats-logo.jpg" width="54px"></router-link>
+            <router-link to="/"><img src="../assets/green-eats-logo.jpg" class="brand-pic" width="54px"></router-link>
           </h1>
           <nav>
             <ul>
@@ -167,9 +167,6 @@ img:hover {
   nav {
     display: none;
   }
-  .brand-name{
-    margin-left:-90px;
-  }
   .shop-icons{
     margin-left: -240px;
   }
@@ -205,6 +202,9 @@ img:hover {
   }
   .texts{
     z-index: 1;
+  }
+  .brand-pic{
+    margin-left: -70px;
   }
 }
 </style>

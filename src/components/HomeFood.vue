@@ -209,5 +209,9 @@ img:hover {
   .brand-pic{
     margin-left: -90px;
   }
+  .texts{
+    position: relative;
+    top:100px;
+  }
 }
 </style>

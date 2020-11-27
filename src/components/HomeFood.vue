@@ -213,5 +213,8 @@ img:hover {
     position: relative;
     top:100px;
   }
+  .second-text{
+    color:#fff
+  }
 }
 </style>

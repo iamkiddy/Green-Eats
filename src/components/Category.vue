@@ -2,18 +2,18 @@
   <div id="itemssection">
     <div class="items">
       <div class="card c1">
-        <h1 class="card-header">Phones</h1>
-        <p class="card-para">Apple</p>
+        <h1 class="card-header">Special Banku</h1>
+        <p class="card-para">Rice</p>
         <img src="../assets/eat-the-rainbow.png" class="food-img" />
       </div>
       <div class="card c1">
-        <h1 class="card-header">Men</h1>
-        <p class="card-para">Nike 2020</p>
+        <h1 class="card-header">Fresh Salad</h1>
+        <p class="card-para">Potato chips</p>
         <img src="../assets/eat-the-rainbow.png" class="food-img" />
       </div>
       <div class="card c1">
-        <h1 class="card-header">Laptop</h1>
-        <p class="card-para">Apple</p>
+        <h1 class="card-header">Cerelas</h1>
+        <p class="card-para">Beans</p>
         <img src="../assets/eat-the-rainbow.png" class="food-img" />
       </div>
     </div>
@@ -93,7 +93,9 @@ export default {
         grid-template-columns: 1fr;
         grid-gap: 30px;
         margin-left:15px;
-
+    }
+    .food-img{
+        width:100px;
     }
 }
 </style>

@@ -38,7 +38,6 @@
             <button class="sec-btn">ORDER NOW</button>
           </div>
           <div class="image">
-            <img src="../assets/eat-the-rainbow.png" class="img-main" />
           </div>
         </section>
       </div>
@@ -59,11 +58,15 @@ export default {
 
 
 .container {
-  background: #fff;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 93vh;
   margin: 0px !important;
 
 }
+
 .container-1 {
   font-family: "poppins", sans-serif;
   margin-left: 100px;
@@ -91,7 +94,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: bold;
   transition: all 0.5s;
 }

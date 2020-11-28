@@ -58,7 +58,7 @@ export default {
 
 
 .container {
-  background-image: url("../assets/bg.jpg");
+  background-image:  url("../assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -139,6 +139,7 @@ img:hover {
   font-family: "Liu Jian Mao Cao", cursive;
   font-size: 60px;
   margin-top: 20px;
+  color: #fff;
 }
 .sec-btn {
   width: 161px;
@@ -174,6 +175,7 @@ img:hover {
   .container{
     height: 100vh;
     width:100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../assets/bg.jpg");
   }
   .shop-icons{
     margin-left: -260px;
@@ -220,7 +222,8 @@ img:hover {
     left:100px;
   }
   .second-text{
-    color:#fff
+    color:#fff;
+    font-size: 30px;
   }
 }
 </style>

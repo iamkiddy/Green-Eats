@@ -169,6 +169,11 @@ img:hover {
 @media only screen and (max-width: 600px) {
   nav {
     display: none;
+
+  }
+  .container{
+    height: 100vh;
+    width:100vw;
   }
   .shop-icons{
     margin-left: -260px;
@@ -212,6 +217,7 @@ img:hover {
   .texts{
     position: relative;
     top:100px;
+    left:200px;
   }
   .second-text{
     color:#fff

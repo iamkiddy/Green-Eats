@@ -22,6 +22,9 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
+*{
+    overflow-x:hidden;
 
+}
 </style>

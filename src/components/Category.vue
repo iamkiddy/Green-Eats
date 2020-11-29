@@ -27,6 +27,9 @@ export default {
 </script>
 
 <style scoped>
+*{
+    overflow:hidden ;
+}
 .itemssection {
   width: 100vw;
   color: #fff;

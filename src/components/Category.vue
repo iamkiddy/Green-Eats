@@ -27,7 +27,6 @@ export default {
 </script>
 
 <style scoped>
-
 .itemssection {
   width: 100vw;
   color: #fff;

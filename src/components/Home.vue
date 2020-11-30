@@ -22,6 +22,8 @@ export default {
 </script>
 
 
-<style scoped>
-
+<style>
+.home{
+  overflow: hidden;
+}
 </style>

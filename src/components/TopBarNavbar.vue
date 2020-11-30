@@ -57,6 +57,7 @@ export default {
 }
 .main-nav-container{
   padding:0 50px;
+  height: 18vh;
 }
 .brand-name{
   margin-top:2rem;

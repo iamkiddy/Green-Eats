@@ -24,6 +24,7 @@ export default {
 
 <style>
 .home{
-  overflow: hidden;
+  overflow-x: hidden;
+  
 }
 </style>

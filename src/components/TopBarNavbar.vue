@@ -113,6 +113,13 @@ a:hover {
     margin-left: -400px;
     margin-top: 25px;
   }
+  .bg-2{
+    padding:0 15px;
+  }
+  .bn-2{
+    position: relative;
+    left: 30px;
+  }
 
 }
 </style>

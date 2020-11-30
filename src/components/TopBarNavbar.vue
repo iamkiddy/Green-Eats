@@ -1,80 +1,118 @@
 <template>
-  <div class="freeshipping-section">
-    <h1 class="freeshippingtext">Free delivery for standard order over GHS 100</h1>
-    <div class="freeshippinglinks">
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Help & FAQs</a>
-          </li>
-          <li>
-            <router-link to="/account">My Account</router-link>
-          </li>
-          <li>
-            <a href="#">EN</a>
-          </li>
-          <li>
-            <a href="#">TWI</a>
-          </li>
-        </ul>
-      </nav>
+  <div class="main-nav-container">
+    <div class="navbar">
+      <div class="brand-content">
+        <img src="../assets/green-eats-logo.jpg" width="120px" class="brand-logo">
+      </div>
+      <div class="nav-links">
+        <div class="navlinks">
+          <ul>
+              <li>
+                <router-link to="/" class="home-link">Home</router-link>
+              </li>
+              <li>
+                <router-link to="/explore">Hot Deals</router-link>
+              </li>
+              <li>
+                <router-link to="/hotdeal">Hot Deals</router-link>
+              </li>
+              <li>
+                <router-link to="/categories">My Account</router-link>
+              </li>
+              <li>
+                <img src="../assets/shopping-bag.svg" class="shopping-bag">
+                <div class="bag-number">2</div>
+              </li>
+            </ul>
+        </div>
+        <div class="hide-me">
+           <img src="../assets/shopping-bag.svg" class="shopping-bag bg-2">
+           <img src="../assets/menu.svg" class="menu" width="24px">
+           <div class="bag-number bn-2">2</div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "TopBarNavbar",
-};
+  name:"TopBarNavbar",
+}
 </script>
 
 <style scoped>
-.freeshipping-section {
-  background: #333;
-  color: #b2b2b2;
-  font-family: "poppins", sans-serif;
-  font-size: 7px;
-  width: 100vw;
-  height: 7vh;
-  line-height: 1.8;
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
 }
-.freeshippingtext {
-  position: relative;
-  top: 10px;
-  margin-left: 100px;
-  color:rgb(163, 157, 157)
+.navbar{
+  display: flex;
+}
+.nav-links{
+  margin-top:10px;
+  margin-left: 580px;
+}
+.main-nav-container{
+  padding:0 50px
+}
+.brand-name{
+  margin-top:2rem;
+}
+.brand-logo{
+  margin-top: -0.8rem;
 }
 ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  float: right;
-  position: relative;
-  right: 100px;
-  
+  margin-top: 30px;
+}
+.home-link {
+  color: #7AC55E !important;
 }
 li {
-  color: #b2b2b2;
-  position: relative;
-  top: -17px;
-  font-family: "poppins", sans-serif;
-  font-size: 7px;
-  padding: 0 20px;
   list-style: none;
+  padding: 0 20px;
 }
 a {
-  font-size: 15px;
-  color: #b2b2b2;
-  font-family: "poppins", sans-serif;
   text-decoration: none;
+  color: #333;
+  font-weight: bold;
   transition: all 0.5s;
 }
 a:hover {
-  color: #64DB61;
+  color: #7AC55E;
 }
-@media only screen and (max-width: 600px) {
-  .freeshipping-section {
+.bag-number {
+  position: relative;
+  top: -50px;
+  left:20px;
+  background: #7AC55E;
+  color: #ffffff;
+  width: 1.25rem;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.25rem;
+}
+.hide-me{
+  display: none;
+}
+
+@media only screen and (max-width:600px){
+  .main-nav-container{
+    width: 100vw;
+  }
+  .navlinks{
     display: none;
   }
+  .hide-me{
+    display: block;
+    margin-left: -400px;
+    margin-top: 25px;
+  }
+
 }
 </style>

@@ -49,13 +49,14 @@ export default {
 }
 .navbar{
   display: flex;
+  
 }
 .nav-links{
   margin-top:10px;
   margin-left: 580px;
 }
 .main-nav-container{
-  padding:0 50px
+  padding:0 50px;
 }
 .brand-name{
   margin-top:2rem;

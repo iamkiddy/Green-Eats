@@ -110,7 +110,7 @@ a:hover {
   }
   .hide-me{
     display: block;
-    margin-left: -400px;
+    margin-left: -430px;
     margin-top: 25px;
   }
   .bg-2{

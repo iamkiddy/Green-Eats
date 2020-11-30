@@ -104,6 +104,7 @@ a:hover {
 @media only screen and (max-width:600px){
   .main-nav-container{
     width: 100vw;
+    padding:0 10px;
   }
   .navlinks{
     display: none;

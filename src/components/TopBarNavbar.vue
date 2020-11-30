@@ -2,7 +2,7 @@
   <div class="main-nav-container">
     <div class="navbar">
       <div class="brand-content">
-        <img src="../assets/green-eats-logo.jpg" width="120px" class="brand-logo">
+        <img src="../assets/green-eats-logo.png" width="120px" class="brand-logo">
       </div>
       <div class="nav-links">
         <div class="navlinks">
@@ -46,6 +46,7 @@ export default {
   margin:0px;
   padding:0px;
   box-sizing: border-box;
+  background: #EAE9E7;
 }
 .navbar{
   display: flex;

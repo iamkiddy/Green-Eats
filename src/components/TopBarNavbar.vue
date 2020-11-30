@@ -120,6 +120,8 @@ a:hover {
     position: relative;
     left: 30px;
   }
-
+.brand-logo{
+  margin-left: -10px;
+}
 }
 </style>
